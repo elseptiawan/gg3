@@ -3,110 +3,118 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <title>Excercise 3</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
 </head>
 <body>
-    <header>
-        <div class="container header-wrapper">
-            <div class="logo">
-                <h2>Logo</h2>
+    <div class="main-container">
+        <div class="side-bar">
+            <div class="top">
+                <a href="#" style="color: white;">Home</a>
+                <a href="#">Search</a>
             </div>
-            <div class="navbar">
-                <a href="index.html">Playlist</a>
-                <a href="mostplayed.html">Most Played</a>
+            <div class="bottom">
+                <h2>Your Library</h2>
+                <div class="list-playlist">
+                    <div class="card-playlist">
+                        <div class="image-wrapper">
+                            <img src="music.png">
+                        </div>
+                        <div class="detail-wrapper">
+                            <div class="playlist-name">MyPlaylist #1</div><br>
+                            <div class="playlist-user">Playlist user123</div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </header>
-    <div class="main">
-        <div class="container">
-            <h2>My Playlist</h2>
-            <a href="addplaylist.html">+ New Song</a>
-            <div class="playlist-wrapper">
-                <div class="song-list">
-                    <table>
-                        <tr>
-                            <td class="judul">Judul Lagu 1</td>
-                            <td class="artist">Penyanyi 1</td>
-                            <td class="duration">04.30</td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>Judul Lagu 1</td>
-                            <td class="artist">Penyanyi 1</td>
-                            <td class="duration">04.30</td>
-                            <td class="action"></td>
-                        </tr>
-                        <tr>
-                            <td>Judul Lagu 1</td>
-                            <td class="artist">Penyanyi 1</td>
-                            <td class="duration">04.30</td>
-                            <td class="action"></td>
-                        </tr>
-                        <tr>
-                            <td>Judul Lagu 1</td>
-                            <td class="artist">Penyanyi 1</td>
-                            <td class="duration">04.30</td>
-                            <td class="action"></td>
-                        </tr>
-                        <tr>
-                            <td>Judul Lagu 1</td>
-                            <td class="artist">Penyanyi 1</td>
-                            <td class="duration">04.30</td>
-                            <td class="action"></td>
-                        </tr>
-                        <tr>
-                            <td>Judul Lagu 1</td>
-                            <td class="artist">Penyanyi 1</td>
-                            <td class="duration">04.30</td>
-                            <td class="action"></td>
-                        </tr>
-                        <tr>
-                            <td>Judul Lagu 1</td>
-                            <td class="artist">Penyanyi 1</td>
-                            <td class="duration">04.30</td>
-                            <td class="action"></td>
-                        </tr>
-                        <tr>
-                            <td>Judul Lagu 1</td>
-                            <td class="artist">Penyanyi 1</td>
-                            <td class="duration">04.30</td>
-                            <td class="action"></td>
-                        </tr>
-                        <tr>
-                            <td>Judul Lagu 1</td>
-                            <td class="artist">Penyanyi 1</td>
-                            <td class="duration">04.30</td>
-                            <td class="action"></td>
-                        </tr>
-                        <tr>
-                            <td>Judul Lagu 1</td>
-                            <td class="artist">Penyanyi 1</td>
-                            <td class="duration">04.30</td>
-                            <td class="action"></td>
-                        </tr>
-                        <tr>
-                            <td>Judul Lagu 1</td>
-                            <td class="artist">Penyanyi 1</td>
-                            <td class="duration">04.30</td>
-                            <td class="action"></td>
-                        </tr>
-                        <tr>
-                            <td>Judul Lagu 1</td>
-                            <td class="artist">Penyanyi 1</td>
-                            <td class="duration">04.30</td>
-                            <td class="action"></td>
-                        </tr>
-                    </table>
+        <div class="song-wrapper">
+            <div class="mostly-played">
+                <h2>Mostly Played</h2>
+                <div class="list-song">
+                    <div class="card-song">
+                        <img src="music.png">
+                        <div class="judul">Judul Lagu</div><br>
+                        <div class="penyanyi">Penyanyi</div>
+                    </div>
+                    <div class="card-song">
+                        <img src="music.png">
+                        <div class="judul">Judul Lagu</div><br>
+                        <div class="penyanyi">Penyanyi</div>
+                    </div>
+                    <div class="card-song">
+                        <img src="music.png">
+                        <div class="judul">Judul Lagu</div><br>
+                        <div class="penyanyi">Penyanyi</div>
+                    </div>
+                    <div class="card-song">
+                        <img src="music.png">
+                        <div class="judul">Judul Lagu</div><br>
+                        <div class="penyanyi">Penyanyi</div>
+                    </div>
+                    <div class="card-song">
+                        <img src="music.png">
+                        <div class="judul">Judul Lagu</div><br>
+                        <div class="penyanyi">Penyanyi</div>
+                    </div>
                 </div>
-                <div class="image">
-                    <img src="cover.jpg">
+            </div>
+            <div class="all-songs">
+                <h2>All Songs</h2>
+                <div class="list-song">
+                    <div class="card-song">
+                        <img src="music.png">
+                        <div class="judul">Judul Lagu</div><br>
+                        <div class="penyanyi">Penyanyi</div>
+                    </div>
+                    <div class="card-song">
+                        <img src="music.png">
+                        <div class="judul">Judul Lagu</div><br>
+                        <div class="penyanyi">Penyanyi</div>
+                    </div>
+                    <div class="card-song">
+                        <img src="music.png">
+                        <div class="judul">Judul Lagu</div><br>
+                        <div class="penyanyi">Penyanyi</div>
+                    </div>
+                    <div class="card-song">
+                        <img src="music.png">
+                        <div class="judul">Judul Lagu</div><br>
+                        <div class="penyanyi">Penyanyi</div>
+                    </div>
+                    <div class="card-song">
+                        <img src="music.png">
+                        <div class="judul">Judul Lagu</div><br>
+                        <div class="penyanyi">Penyanyi</div>
+                    </div>
+                    <div class="card-song">
+                        <img src="music.png">
+                        <div class="judul">Judul Lagu</div><br>
+                        <div class="penyanyi">Penyanyi</div>
+                    </div>
+                    <div class="card-song">
+                        <img src="music.png">
+                        <div class="judul">Judul Lagu</div><br>
+                        <div class="penyanyi">Penyanyi</div>
+                    </div>
+                    <div class="card-song">
+                        <img src="music.png">
+                        <div class="judul">Judul Lagu</div><br>
+                        <div class="penyanyi">Penyanyi</div>
+                    </div>
+                    <div class="card-song">
+                        <img src="music.png">
+                        <div class="judul">Judul Lagu</div><br>
+                        <div class="penyanyi">Penyanyi</div>
+                    </div>
+                    <div class="card-song">
+                        <img src="music.png">
+                        <div class="judul">Judul Lagu</div><br>
+                        <div class="penyanyi">Penyanyi</div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <footer>
-        
-    </footer>
 </body>
 </html>
