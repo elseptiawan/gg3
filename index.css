@@ -57,15 +57,18 @@ header{
     background-color: #FBEAEB;
 }
 
-.main button{
+.main a{
     padding: 10px 15px;
     border: none;
     background-color: white;
     font-weight: bold;
     cursor: pointer;
+    text-decoration: none;
+    color: black;
+    border-radius: 4px;
 }
 
-.main button:hover{
+.main a:hover{
     box-shadow: 2px 2px 2px 1px rgba(47,60,126, 0.4);
 }
 
