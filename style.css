@@ -129,6 +129,7 @@ body {
     padding: 5px;
     display: flex;
     cursor: pointer;
+    border-radius: 7px;
 }
 
 .card-playlist:hover{
